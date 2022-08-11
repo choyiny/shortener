@@ -2,7 +2,9 @@ name = "shortener"
 main = "src/index.ts"
 compatibility_date = "2022-08-11"
 
-kv_namespaces = { binding = "SHORTENER_NAMESPACE", id = "cfeb2318ec95431caf6ca26a08f11f45" }
+kv_namespaces = [
+  { binding = "SHORTENER_KV", id = "cfeb2318ec95431caf6ca26a08f11f45", preview_id = "431a5e698fc04e03a9fd28c72ff4e1cd" }
+]
 
 [vars]
-HOST_URL = "http://localhost:8787"
+HOST_URL = "https://shortener.cyong.workers.dev"
