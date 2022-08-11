@@ -1,0 +1,8 @@
+name = "shortener"
+main = "src/index.ts"
+compatibility_date = "2022-08-11"
+
+kv_namespaces = { binding = "SHORTENER_NAMESPACE", id = "cfeb2318ec95431caf6ca26a08f11f45" }
+
+[vars]
+HOST_URL = "http://localhost:8787"
