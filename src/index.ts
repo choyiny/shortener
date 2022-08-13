@@ -28,7 +28,12 @@ router.post("/", async (request: Request, env: Env) => {
 router.get("/:slug", async (request: Request, env: Env) => {
   const slug = request.params.slug;
   const redirectTo = await env.SHORTENER_KV.get(slug);
-  return Response.redirect(redirectTo, 302);
+  if (redirectTo) {
+    return Response.redirect(redirectTo, 302);
+  }
+  return new Response("URL not found", {
+    status: 404,
+  });
 });
 
 export default {
