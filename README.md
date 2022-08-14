@@ -1,0 +1,2 @@
+# Build a scalable URL shortener in 15 minutes with Cloudflare Workers and KV
+This is a companion repo for the Braindump on my website. You can check out the article [here](https://choy.in/braindumps/build-a-url-shortener-with-cloudflare-workers-and-kv).
