@@ -3,8 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2022-08-11"
 
 kv_namespaces = [
-  { binding = "SHORTENER_KV", id = "cfeb2318ec95431caf6ca26a08f11f45", preview_id = "431a5e698fc04e03a9fd28c72ff4e1cd" }
+  { binding = "SHORTENER_KV", id = "f21305bc11414e2390385ea179cd90ce", preview_id = "86408a0158b5462094625dd20e81078e" }
 ]
 
 [vars]
-HOST_URL = "https://shortener.cyong.workers.dev"
+HOST_URL = "https://shortener.cho.workers.dev"
